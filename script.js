@@ -7,3 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+const btnDark = document.getElementById("darkmode");
+btnDark.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});

@@ -34,3 +34,11 @@ form input, form button {
   width: 100%;
   max-width: 300px;
 }
+
+.dark {
+  background: #222;
+  color: #eee;
+}
+.dark header {
+  background: #333;
+}
